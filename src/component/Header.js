@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styled from 'styled-components';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
+import Logo from "../images/logo.svg";
 
 
 const Container = styled.div `
@@ -80,7 +81,7 @@ function Header() {
     return (
         <Container>
             <a>
-                <img src="/images/logo.svg" alt=""/>
+                <img src={Logo} alt=""/>
             </a>
 
             <Menu>
